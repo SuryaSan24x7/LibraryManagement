@@ -1,0 +1,7 @@
+service: () -> {
+    addBook: (text, text, text, nat64) -> (variant {Success:text; Failure:text});
+    getBookDetails: (text) -> (variant {Success:text; Failure:text}) query;
+    incrementBookCopies: (text, nat64) -> (variant {Success:text; Failure:text});
+    issueBook: (text, text) -> (variant {Success:text; Failure:text});
+    returnBook: (text, text) -> (variant {Success:text; Failure:text});
+}
